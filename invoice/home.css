@@ -1,0 +1,126 @@
+.area{
+    max-width: 50em;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+form{
+    margin-bottom: 100px;
+}
+.title{
+    margin: 0%;
+    font-size: medium;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    border: 10px solid #2A004E;
+
+} 
+
+#trendymart{
+     
+     animation: trendymart 1s ease-in-out;
+}
+
+@keyframes trendymart{
+    from{
+        opacity: 0%;
+        transform: translate(-50px);
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+#logo{
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    animation: logo 1s ease-in-out;
+    
+}
+
+@keyframes logo{
+    from{
+        opacity: 0%;
+        transform: scale(-1.5) rotate(-25deg);
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+#logo:hover{
+    transform: scale(1.5) rotate(25deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.invoice{
+    animation: invoice 1s ease-in-out;
+}
+@keyframes invoice{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+label
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #282f30;
+    display: block;
+    margin-top: 20px;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #F5EFFF;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+#type{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    background-color: #F5EFFF;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+}
+button{
+   padding: 10px 20px;
+    float: right;
+    background-color: blue;
+    color: whitesmoke;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #dddddd;
+}
